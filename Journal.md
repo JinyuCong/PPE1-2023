@@ -21,3 +21,23 @@ Author: Cong Jinyu <congtaotao2001@gmail.com>
 Date:   Tue Oct 10 20:19:40 2023 +0200
 
     Ajout section seance 3
+
+## Modification de 10/10 : 
+
+EXO2
+micro oops.md
+git add oops.md
+git commit -m "une erreur"
+git tag -a "Mon premier tag" -m <SHA>
+
+#删除文件
+touch oups.md #创建名字叫oups的文件
+git rm oups.md #删除文件
+git status
+git commit -m  "suppression de oups.md"
+git push
+
+#已经用push提交上取得文件用git revert
+#还没有push提交上取得文件用reset
+#reset修改本地还没有提交的代码可以到任意一步
+#revert可以修改线上的代码（需要SHA码）到任意一步
