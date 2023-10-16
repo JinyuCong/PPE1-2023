@@ -22,7 +22,7 @@ Date:   Tue Oct 10 20:19:40 2023 +0200
 
     Ajout section seance 3
 
-## Modification de 10/10 : 
+## Modification de 10/10 (Les notes sur le cours): 
 
 EXO2
 micro oops.md
@@ -41,3 +41,8 @@ git push
 #还没有push提交上取得文件用reset
 #reset修改本地还没有提交的代码可以到任意一步
 #revert可以修改线上的代码（需要SHA码）到任意一步
+
+## Modification de 16/10 (devoirs à la maison exercices 1 et 2):
+
+Pour exercice 1 j'ai écrit une script pour compter les types d'entités pour chaque année.
+Dans les fichiers de type .ann il y a 4 types d'entités qui sont "Organisation", "Location", "Date", "Person" et "Product"
