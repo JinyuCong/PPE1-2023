@@ -1,7 +1,12 @@
 # Journal de Jinyu
-## modification de 3 Octobre : J'ai appris comment tirer les fichiers de mon répertoire et les mettre dans ma branche 'main'. Et pousser les fhichiers locals vers le répertoire de github. J'ai appris en même temps comment commenter une modification avec la commande 'commit' et 'add'. 
 
-## Modification de 10 Octobre (séance 3): Pendant ce cours, j'ai appris comment annuler les modifications apportées aux fichiers locaux dans Git, ainsi que comment ajouter des balises (tags) aux fichiers sur GitHub et comment les retirer.
+## modification de 3 Octobre: 
+
+J'ai appris comment tirer les fichiers de mon répertoire et les mettre dans ma branche 'main'. Et pousser les fhichiers locals vers le répertoire de github. J'ai appris en même temps comment commenter une modification avec la commande 'commit' et 'add'. 
+
+## Modification de 10 Octobre (séance 3): 
+
+Pendant ce cours, j'ai appris comment annuler les modifications apportées aux fichiers locaux dans Git, ainsi que comment ajouter des balises (tags) aux fichiers sur GitHub et comment les retirer.
 
 commit 232d507c5469c5791a6ed863c2ce1d17e8cccc82 (HEAD -> main, origin/main)
 Author: Cong Jinyu <congtaotao2001@gmail.com>
@@ -44,5 +49,12 @@ git push
 
 ## Modification de 16/10 (devoirs à la maison exercices 1 et 2):
 
-Pour exercice 1 j'ai écrit une script pour compter les types d'entités pour chaque année.
-Dans les fichiers de type .ann il y a 4 types d'entités qui sont "Organisation", "Location", "Date", "Person" et "Product"
+Les modifications d'aujourd'hui ont porté sur la création des exercices pour le diaporama, qui se trouvent respectivement aux pages 24, 26 et 29. En faisant des recherches en ligne, j'ai appris comment utiliser une boucle for pour parcourir les données de chaque année.Il a été nécessaire d'écrire une série de scripts pour rechercher des données de types spécifiques dans les fichiers du dossier "Fichiers" ou pour effectuer des recherches et compter les données en fonction des variables fournies par l'utilisateur.
+
+## Modification de 21/10 (devoirs à la maison exercices 1 et 2):
+
+Aujourd'hui, j'ai modifié les devoirs de la page 29 de la quatrième leçon. Au préalable, je n'avais pas compris le sens de "prendre en argument" dans la page 29 de la présentation PowerPoint, c'est pourquoi j'avais placé toutes les variables dans la boucle for sans demander à l'utilisateur quelles années ou quel type de données il voulait afficher.<br>
+
+J'ai aussi appris comment utiliser des instructions "if" pour vérifier si tous les arguments sont fournis. Si l'utilisateur ne fournit pas tous les arguments requis, le script affichera une erreur indiquant : "Vous n'avez pas fourni toutes les variables nécessaires"<br>
+
+En modifiant le script de la semaine dernière, j'ai corrigé la partie de mon devoir qui n'était pas conforme aux exigences de l'énoncé, et j'ai amélioré l'affichage du résultat final. Cela permet à l'utilisateur de mieux spécifier l'année pour laquelle il souhaite des données, et, en cas d'arguments insuffisants de la part de l'utilisateur, de lui indiquer quels arguments sont manquants.
