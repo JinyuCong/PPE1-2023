@@ -20,8 +20,8 @@ fi
 
 while read -r line
 do
-	code=$(curl -Ils $line | grep -e "^HTTP/" | grep -E -o "[0-9]{3}")
-	charset=$(curl -Ils $line | grep -E -o "\bcharset.*\b")
-	echo $counter"	"$line"	"$code"	"$charset >> "log.txt"
+	code=$(curl -I -L -s -w "%{http_code}" -o /dev/null $line)
+	charset=$(curl -I -s -w "%{content_type}" -o /dev/null $line | grep -P -o "charset=\S+" | cut -d "=" -f2)
+	echo -e "$counter\t$line\t$code\t$charset"
 	counter=$(expr $counter + 1)
 done < $urlfile
