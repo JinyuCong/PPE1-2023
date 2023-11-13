@@ -67,3 +67,10 @@ Cette leçon comporte deux exercices, qui consistent à commencer un mini projet
 
 Aujourd'hui, j'ai réalisé un mini-projet supplémentaire. Ces trois questions utilisaient les connaissances des cours précédents, en utilisant la commande "cat" pour compter le nombre d'occurrences de chaque mot dans un article, mais auparavant, il a fallu utiliser la commande "grep" pour séparer chaque mot de l'article sur une ligne distincte pour une manipulation aisée. Pour les arguments optionnels, j'ai utilisé plusieurs instructions "if" pour afficher par défaut 25 mots ou des bigrammes. Ensuite, après avoir cherché comment utiliser la commande "paste", j'ai appris comment créer des bigrammes sans utiliser de boucles. Cette commande permet de concaténer chaque ligne de deux fichiers, formant ainsi des bigrammes.
 
+## Modification de 13/11 (transformer la sortie tableau eb HTML):
+
+Aujourd'hui, dans un script shell, j'ai converti le script de la leçon précédente en un fichier HTML et j'ai affiché le contenu en forme de tableau sur une page web. En particulier, j'ai ajouté ligne par ligne les balises HTML telles que "<html>" et "<body>" dans un fichier nommé script_html.html en utilisant l'opérateur >>. Ensuite, pour le tableau, j'ai simplement ajouté les balises du tableau comme "<tr>" et "<td>" de part et d'autre de chaque contenu de sortie dans la boucle while précédente, et utilisé >> pour les insérer dans le fichier HTML. De cette manière, un fichier HTML complet peut être exécuté dans un navigateur.
+
+
+
+
