@@ -71,6 +71,8 @@ Aujourd'hui, j'ai réalisé un mini-projet supplémentaire. Ces trois questions 
 
 Aujourd'hui, dans un script shell, j'ai converti le script de la leçon précédente en un fichier HTML et j'ai affiché le contenu en forme de tableau sur une page web. En particulier, j'ai ajouté ligne par ligne les balises HTML telles que "<html>" et "<body>" dans un fichier nommé script_html.html en utilisant l'opérateur >>. Ensuite, pour le tableau, j'ai simplement ajouté les balises du tableau comme "<tr>" et "<td>" de part et d'autre de chaque contenu de sortie dans la boucle while précédente, et utilisé >> pour les insérer dans le fichier HTML. De cette manière, un fichier HTML complet peut être exécuté dans un navigateur.
 
+## Modification de 20/11 (créer une index avec Bulma):
 
+8e leçon, l’objectif de cette leçon est de créer une page d’accueil index pour un site web. En classe, vous avez seulement appris les commandes HTML les plus basiques, mais avec Bulma, vous pouvez concevoir un site web attrayant sans la base des fichiers de formatage CSS. Dans les devoirs, vous avez conçu un bouton qui, lorsqu’il est cliqué, peut sauter à Tableau, qui est le tableau créé dans la leçon précédente. Ensuite, j’ai écrit l’introduction de ce mini-projet ci-dessous.
 
 
