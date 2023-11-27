@@ -71,6 +71,6 @@ Aujourd'hui, j'ai réalisé un mini-projet supplémentaire. Ces trois questions 
 
 Aujourd'hui, dans un script shell, j'ai converti le script de la leçon précédente en un fichier HTML et j'ai affiché le contenu en forme de tableau sur une page web. En particulier, j'ai ajouté ligne par ligne les balises HTML telles que "<html>" et "<body>" dans un fichier nommé script_html.html en utilisant l'opérateur >>. Ensuite, pour le tableau, j'ai simplement ajouté les balises du tableau comme "<tr>" et "<td>" de part et d'autre de chaque contenu de sortie dans la boucle while précédente, et utilisé >> pour les insérer dans le fichier HTML. De cette manière, un fichier HTML complet peut être exécuté dans un navigateur.
 
-
-
+## Modification de 27/11 (projet en groupe):
+Cette modification consiste à faire le projet en groupe. Qui contient le complément de notre programme de script, aspirer les codes sources de chaque URL trouvé, les contextes ou le mot étudié a apparu, un dump-text qui est le texte nette sans lien de chaque URL, et finalement on a amélioré les tableaux en ajoutant 3 colomnes: aspiration, contexte et dump text. Pour l'instant on a pas formalisé la structure des fichiers et les scripts de programme pour créer le tableau. On va le faire après.
 
