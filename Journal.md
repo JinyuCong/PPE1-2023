@@ -79,5 +79,6 @@ Aujourd'hui, dans un script shell, j'ai converti le script de la leçon précéd
 
 Cette modification consiste à faire le projet en groupe. Qui contient le complément de notre programme de script, aspirer les codes sources de chaque URL trouvé, les contextes ou le mot étudié a apparu, un dump-text qui est le texte nette sans lien de chaque URL, et finalement on a amélioré les tableaux en ajoutant 3 colomnes: aspiration, contexte et dump text. Pour l'instant on a pas formalisé la structure des fichiers et les scripts de programme pour créer le tableau. On va le faire après.
 
+## Modification de 04/12 (projet en groupe: iTrameur):
 
-
+Aujourd'hui, j'ai effectué les devoirs d'iTrameur et écrit un script qui peut convertir les contextes et les dumps collectés en format XML, facilitant ainsi le traitement par iTrameur. Dans l'ensemble, la méthode est similaire à celle de la conversion en format HTML, où l'on ajoute des balises selon la syntaxe du format de fichier correspondant. Cette fois, il m'a été demandé d'utiliser une boucle "for" pour lire tous les fichiers dans un dossier.
